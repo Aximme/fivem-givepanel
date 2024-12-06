@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Gestionnaire d'Inventaire</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="inventory-ui">
+        <div class="tabs">
+            <button class="tab-link active" data-tab="donner-items">Donner des Items</button>
+            <button class="tab-link" data-tab="gerer-inventaires">Gérer les Inventaires</button>
+        </div>
+        <div id="donner-items" class="tab-content active">
+            <input type="text" id="search-items" placeholder="Rechercher un item...">
+            <div id="items-list"></div>
+        </div>
+        <div id="gerer-inventaires" class="tab-content">
+            <input type="text" id="search-players" placeholder="Rechercher un joueur...">
+            <div id="players-list"></div>
+        </div>
+        <button id="close-btn">Fermer</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
