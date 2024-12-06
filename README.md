@@ -1,6 +1,6 @@
-# Aximme Inventory Manager 🎒
+# FiveM Inventory Manager 🎒
 
-Aximme Inventory Manager is a FiveM script that provides a NUI (New User Interface) for managing player inventories. This script allows administrators to give items to players, manage player inventories, and log actions to a Discord channel.
+Inventory Manager is a FiveM script that provides a NUI (New User Interface) for managing player inventories. This script allows administrators to give items to players, manage player inventories, and log actions to a Discord channel.
 
 ## Features ✨
 
@@ -45,7 +45,7 @@ Aximme Inventory Manager is a FiveM script that provides a NUI (New User Interfa
 
 ### NUI
 
-- **Give Items**: Search for items and give them to selected players.
+- **Give Items**: Search for items and give them to selected players (sync with ox_inventory items & weapons).
 - **Manage Inventories**: View and manage the inventories of selected players.
 
 ## Configuration ⚙️
